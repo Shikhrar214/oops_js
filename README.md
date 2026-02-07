@@ -256,15 +256,15 @@ Beyond the four pillars of OOP, these patterns and concepts are essential for pr
 node 01_classes_objects/01_basic_class.js
 ```
 
-#### Run all files in a folder:
+<!-- #### Run all files in a folder:
 ```bash
 for file in 01_classes_objects/*.js; do
   echo "=== Running $file ===" 
   node "$file"
 done
-```
+``` -->
 
-#### Run all files:
+<!-- #### Run all files:
 ```bash
 find . -name "*.js" -type f | sort | while read file; do
   echo "=========================================="
@@ -273,7 +273,7 @@ find . -name "*.js" -type f | sort | while read file; do
   node "$file"
   echo ""
 done
-```
+``` -->
 
 ### Learning Path (Recommended Order)
 
